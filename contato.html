@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos Mundo SENAI</title>
+  <link href="css/contato.css" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="images/senai_logo.png" alt="Logo do Mundo SENAI" width="150">
+    </div>
+    <div class="formulario">
+      <h2>Entre em Contato</h2>
+      <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>Email:</strong> SENAIofc@exemplo.com</p>
+    <p><strong>Telefone:</strong> (69) 0000-0000</p>
+    <p><strong>Endereço:</strong> Rua Rio de Janeiro, N° 4734</p>
+  </footer>
+</body>
+</html>
